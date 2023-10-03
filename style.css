@@ -1,0 +1,83 @@
+/* Estilos para la barra de navegación */
+body{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Estilos para el contenido principal */
+.container-text{
+    font-size: 4lvw;
+    line-height: 1;
+    font-weight: bolder;
+}
+.container-text span, .discover-text{
+    color: orange;
+}
+.container-text2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    margin-bottom: 5lvw;
+}
+.discover-text{
+    border: 1px solid orange;
+    text-decoration: none;
+    padding: 1lvw 1.5lvw 1lvw 1.5lvw;
+    border-radius: 5px;
+    transition: color 0.75s ease;
+}
+.discover-text:hover{
+    background-color: orange;
+    color: white;
+}
+#nav-login{
+    color: orange;
+    padding-right: 2.5lvw;
+    padding-left: 2.5lvw;
+
+}
+#nav-signUp, .explore-button{
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 0.4lvw 2.5lvw 0.4lvw 2.5lvw;
+    box-shadow: 2px 1px 10px orange;
+}
+.container-search{
+    width: 100%;
+}
+.explore-button{
+    text-decoration: none;
+    padding: 1lvw 1.5lvw 1lvw 1.5lvw;
+}
+/* Estilos para las tarjetas de filtro */
+.card-title, .card-title-2{
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: justify;
+}
+.card-subtitle, .card-subtitle-2{
+    font-weight: 50;
+    line-height: 1;
+    text-align: justify;
+    color: gray;
+    padding: 10px;
+}
+.card-1{
+    border: none;
+    margin-bottom: 10lvw;
+}
+.card-2{
+    margin-bottom: 10lvw;
+}
+.card-2:hover{
+    border-radius: 5px;
+    box-shadow: 25px 25px 25px -15px gainsboro;
+}
+.img-card{
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
