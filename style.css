@@ -1,9 +1,17 @@
+
 .Centrado {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px;
     vertical-align: middle;
+
+/* Estilos para la barra de navegación */
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .bloque {
