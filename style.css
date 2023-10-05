@@ -1,6 +1,6 @@
 /* Estilos para la barra de navegación */
 body{
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
